@@ -2,9 +2,9 @@ import axios from 'axios';
 
 //functions in here must match the functions in the controllers in the server side
 
-//url for connrcting to backend
+//url for connrcting to backend local host
 const url = 'http://localhost:5000';
-// const createPostUrl = "url for creating a post"
+// const url = https://memdemo.herokuapp.com;
 
 // function to return all posts in db
 export const fetchPosts = () => axios.get(url);
