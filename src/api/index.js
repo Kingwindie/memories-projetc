@@ -4,7 +4,7 @@ import axios from 'axios';
 
 //url for connrcting to backend local host
 // const url = 'http://localhost:5000';
-const url = 'https://memdemo.herokuapp.com';
+const url = 'https://memdemo.herokuapp.com/posts';
 
 // function to return all posts in db
 export const fetchPosts = () => axios.get(url);
